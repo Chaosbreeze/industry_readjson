@@ -1,0 +1,96 @@
+{
+    "criteria": {
+        "origin": [
+            {
+                "csv_pos_idx": 1,
+                "csv_col_option": [
+                    "酒店",
+                    "汽车",
+                    "航空"
+                ]
+            },
+            {
+                "csv_pos_idx": 2,
+                "csv_col_option": [
+                    "OTA",
+                    "OTB",
+                    "OTC"
+                ]
+            }
+        ],
+        "combined": [
+            {
+                "csv_option_name": "酒店OTAOTA",
+                "csv_col_options": [
+                    {
+                        "csv_pos_idx": 1,
+                        "csv_col_option": "A"
+                    },
+                    {
+                        "csv_pos_idx": 2,
+                        "csv_col_option": "OTA"
+                    },
+                    {
+                        "csv_pos_idx": 3,
+                        "csv_col_option": "OTA"
+                    }
+                ]
+            },
+            {
+                "csv_option_name": "双A",
+                "csv_col_options": [
+                    {
+                        "csv_pos_idx": 1,
+                        "csv_col_option": "A"
+                    },
+                    {
+                        "csv_pos_idx": 2,
+                        "csv_col_option": "a"
+                    },
+                    {
+                        "csv_pos_idx": 2,
+                        "csv_col_option": "OTA"
+                    }
+                ]
+            }
+        ],
+        "custom": {
+            "pv_all": true,
+            "time_span": "week3",
+            "area_span": "province",
+            "channles": [
+                10011,
+                11001
+            ],
+            "channel_sum": true,
+            "percent": {
+                "pc_percent": true,
+                "wise_percent": true,
+                "percent_field": [
+                    {
+                        "name": "ss",
+                        "numerator": "tag_name",
+                        "denominator": "tag_name"
+                    },
+                    {
+                        "name": "ss",
+                        "numerator": "tag_name",
+                        "denominator": "tag_name"
+                    }
+                ]
+            },
+            "rate": {
+                "tongbi": true,
+                "huanbi": true
+            }
+        },
+        "system": {
+            "industry_id": 1,
+            "industry_tpl_id": 11,
+            "user_id": 111,
+            "file_url": "s",
+            "moudle_id": "s",
+            "task_id": "s"
+        }
+    }
+}
